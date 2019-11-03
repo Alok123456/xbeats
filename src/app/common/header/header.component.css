@@ -1,0 +1,76 @@
+.scrolling-horizontal-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.scrolling-horizontal-wrapper .scrolling-horizontal {
+  position: static;
+}
+
+.navbar-top {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background: #C00D0D;
+  border-bottom: 3px solid #900a0a;
+  overflow: hidden;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  padding: 0.5rem 1rem;
+}
+
+.scrolling-horizontal-wrapper .scrolling-horizontal .overflow-scroll-tabs {
+  pointer-events: auto;
+}
+
+.navbar-top .navbar-nav {
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.navbar-nav {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+
+.navbar-top .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.75);
+  padding-right: .5rem;
+  padding-left: .5rem;
+  transition: color .2s ease-in-out;
+}
+
+.navbar-top .navbar-nav .nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+.nav-link {
+  display: block;
+  padding: 0.5em 1em;
+}
+a, area, button, [role="button"], input, label, select, summary, textarea {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+a {
+  color: #C00D0D;
+  text-decoration: none;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
